@@ -35,7 +35,7 @@ Then run the `swift build` command to build your project.
 
 ### Carthage
 
-To use Rate in your Xcode project using Carthage,
+To use PasswordRules in your Xcode project using Carthage,
 specify it in `Cartfile`:
 
 ```
