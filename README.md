@@ -45,6 +45,10 @@ github "NSHipster/PasswordRules" ~> 1.0.0
 Then run the `carthage update` command to build the framework,
 and drag the built PasswordRules.framework into your Xcode project.
 
+### Manually
+
+Add the [PasswordRules.swift](https://github.com/NSHipster/PasswordRules/blob/master/Sources/PasswordRules/PasswordRules.swift) file to your project. 
+
 ## Usage
 
 Define an array of `PasswordRules` cases
