@@ -9,7 +9,7 @@ final class PasswordRulesTests: XCTestCase {
                                       .allowed(.asciiPrintable),
                                       .minLength(20) ]
         
-        XCTAssertEqual(PasswordRule.descriptor(for: rules), "required: upper; required: lower; required: special; allowed: ascii-printable; minlength: 20;")
+        XCTAssertEqual(rules.descriptor, "required: upper; required: lower; required: special; allowed: ascii-printable; minlength: 20;")
     }
 
     static var allTests = [

@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		583215B921802673007F3669 /* PasswordRules+descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583215B821802673007F3669 /* PasswordRules+descriptor.swift */; };
+		583215BB2180275D007F3669 /* UITextInputPasswordRules+PasswordRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583215BA2180275D007F3669 /* UITextInputPasswordRules+PasswordRules.swift */; };
 		OBJ_22 /* PasswordRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PasswordRules.swift */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* PasswordRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PasswordRulesTests.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		583215B821802673007F3669 /* PasswordRules+descriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordRules+descriptor.swift"; sourceTree = "<group>"; };
+		583215BA2180275D007F3669 /* UITextInputPasswordRules+PasswordRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextInputPasswordRules+PasswordRules.swift"; sourceTree = "<group>"; };
 		OBJ_12 /* PasswordRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRulesTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -100,7 +104,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -108,7 +112,6 @@
 				OBJ_10 /* Tests */,
 				OBJ_14 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -123,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* PasswordRules.swift */,
+				583215BA2180275D007F3669 /* UITextInputPasswordRules+PasswordRules.swift */,
+				583215B821802673007F3669 /* PasswordRules+descriptor.swift */,
 			);
 			name = PasswordRules;
 			path = Sources/PasswordRules;
@@ -193,7 +198,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,6 +217,8 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_22 /* PasswordRules.swift in Sources */,
+				583215B921802673007F3669 /* PasswordRules+descriptor.swift in Sources */,
+				583215BB2180275D007F3669 /* UITextInputPasswordRules+PasswordRules.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

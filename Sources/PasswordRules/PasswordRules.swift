@@ -14,10 +14,6 @@ public enum PasswordRule {
     case maxConsecutive(UInt)
     case minLength(UInt)
     case maxLength(UInt)
-    
-    public static func descriptor(for rules: [PasswordRule]) -> String {
-        return rules.map{ "\($0.description);" }.joined(separator: " ")
-    }
 }
 
 extension PasswordRule: CustomStringConvertible {
